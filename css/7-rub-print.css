@@ -1,0 +1,753 @@
+@charset "iso-8859-2";
+/*** Alles auf 0 ***/
+* { 
+	padding: 	   		0; 
+	margin: 			0; 
+	border:				0px none; 
+	font-size:  		100.01%
+}
+/*** Schrift, Schriftgroesse, Hintergrundfarbe der Seite ***/
+body {
+	font-family: 		Arial, Helvetica, sans-serif;
+    background-color: 	#fff;
+}
+/*** Der Rahmen, 1000 Pixel mittig gesetzt ***/
+#wrapper {
+	margin: 			0 auto;
+	width: 				90%;
+	background-image: 	url('none');
+	background-repeat: 	repeat-y; padding-left:0.625em; padding-right:0; padding-top:0; padding-bottom:0
+}
+#leftcolumn {
+	display: 			none;
+}
+#bg-right {
+	background-image:	url('none');
+	background-repeat:	repeat-y;
+	background-position: right 50%;
+	width: 				100%
+}
+/*** Kopfbereich ***/
+#header {
+	color: 				#5c5c5c;
+	width: 				100%;
+	float: 				left;
+}
+/*** Hintergrund Kopfbereich, doppelt, damit bei Groessenaenderung keine Darstellungsfehler entstehen ***/
+#headerbackground {
+	color: 				#5c5c5c;
+	width: 				62em;
+	background-image: url('../images/background/klipsy.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 21.3em
+}
+ #headerbackground-right {
+	background-image: 	url('../images/background/bg-oben-unterseite-grau136-2.gif');
+	background-position: right top;
+	background-repeat:	no-repeat
+}
+/*** Schriftzug Ruhr-Universitaet linke Seite ***/
+.schriftzug {
+	padding: 			1.5em 0 0 0.625em;
+} 
+/*** Logo rechte Seite ***/
+.logorub {
+	float:				right;
+	width: 				102px;
+	height: 			136px;
+}
+/*** Metanavigation ***/
+#metanavigation {
+	display: 			none;
+}
+/*** Inhaltsbereich ***/
+#content {
+	float: 				left;
+	color: 				#5c5c5c;
+	width: 				95%;
+	display: 			inline;
+}
+#inhaltsbereich {
+	padding: 			0 0.625em;
+}
+/*** Fusszeile ***/
+#footer {
+	width: 				95%;
+	clear: 				both;
+	color: 				#5c5c5c;
+	padding: 			1%;
+	border-top: 		#8dae10 solid 1px;
+	border-bottom: 		2px solid #ccc;
+}
+/*** Inhalt Fusszeile ***/
+#footer a:link, #footer a:visited {
+	text-decoration:	none;
+	color:				#5c5c5c;
+	font-size: 			1em;
+}
+#footer a:hover {
+	text-decoration:	underline;
+}
+#fusszeilentext {
+	font-size: 			0.689em;
+}
+#inhalt-zweispalten {
+	width:				100%;
+}
+#inhalt-zweispaltenlinks {
+	float:				none;
+	width:				90%;
+	padding:			0em 2% 1em 0;
+}
+#inhalt-zweispaltenrechts {
+	padding:			0em 0em 1em 2%;
+	overflow:			hidden;
+	width: 				90%;
+}
+/*** Hauptueberschrift Seite unter Ruhr-Universitaet Bochum ***/	
+#header h1 {
+	margin:				0;
+	padding: 	 		0.625em 0 0 0.375em;
+	color: 				#8dae10;
+	font-size: 			1.5em;
+	text-transform: 	uppercase;
+}
+/*** Zweite Ueberschrift im Kopfbereich ***/
+#header h2 {
+	margin:				0;
+	padding: 			0.325em 0 0 0.625em;
+	color: 				#003560;
+	font-size: 			1em;
+	text-transform: 	uppercase;
+}
+/*** Optional dritte Ueberschrift im Kopfbereich ***/
+#header h3 {
+	margin:				0;
+	padding: 			0.625em 0 0 1em;
+	color: 				#003560;
+	font-size: 			0.875em;
+	text-transform: 	uppercase;
+}
+/*** Wo bin ich ***/
+#history {
+	width: 				95%;
+	padding: 			0.625em 0.625em 0.625em 0.625em;
+	color:				#626262;
+	float: 				left;
+}
+#history a {
+	text-decoration:	none;
+	color:				#5c5c5c;
+}
+#history a:hover {
+	text-decoration:	underline;
+}
+#wo_bin_ich {
+	font-size: 			0.689em;
+}
+#sprache {
+ display: 				none;
+}
+.flagge-englisch-vor {
+	background-image:		url('../images/icons/fl_english.gif');
+	background-position: 	 left 50%;
+	background-repeat:		no-repeat;
+	padding-left: 			1.5em
+}
+.flagge-deutsch-vor {
+	background-image:		url('../images/icons/fl_deutsch.gif');
+	background-position: 	 left 50%;
+	background-repeat:		no-repeat;
+	padding-left: 			1.5em
+}
+/*** Inhaltsbereich Basisdefinition ***/
+#inhaltsbereich img {
+	padding: 			0;
+}
+#inhaltsbereich p {
+	padding:  			0 0 0.625em 0;
+	font-size: 			0.75em;
+	color: 				#003560;
+	line-height: 		150%;
+}
+#inhaltsbereich ul {
+	list-style-type: 	none;
+	padding: 			0 0 1em 1em;
+	color: 				#003560;
+}	
+#inhaltsbereich ol, #inhaltsbereich dl {
+	padding: 			0 0 1em 1.25em;
+	font-size: 			0.75em;
+	line-height: 		125%;
+	color: 				#003560;
+}
+#inhaltsbereich dt {
+	font-weight:		bold;
+}
+#inhaltsbereich dd {
+	padding-left: 		2em;
+}
+/*** Ueberschriften im Inhaltsbereich ***/
+#inhaltsbereich h2 {
+	font-size: 			1em;
+	border-top: 		2px solid #003560;
+	padding: 			0.3125em 0 0.625em 0;
+	color:				#003560;
+	text-transform: 	uppercase;
+}
+#inhaltsbereich h3 {
+	font-size: 			0.875em;
+	padding: 			0.3125em 0 0.625em 0;
+	color:				#003560;
+	text-transform: 	none;
+}
+#inhaltsbereich h4 {
+	font-size: 			0.75em;
+	padding: 			0.3125em 0 0.625em 0;
+	color:				#003560;
+	text-transform: 	none;
+}
+#inhaltsbereich h5 {
+	font-size: 			0.75em;
+	padding: 			0.3125em 0 0.625em 0;
+	color:				#003560;
+}
+#inhaltsbereich h6 {
+	font-size: 			0.75em;
+	padding: 			0.3125em 0 0.625em 0;
+	color:				#003560;
+	font-weight:		normal;
+}
+/*** Listen im Inhaltsbereich ***/
+#inhaltsbereich ul li {
+	font-size: 			0.75em;
+	line-height: 		150%;
+	list-style-image: 	url('../images/navigation/pfeil-link-blau-listeinhalt.gif');
+}
+#inhaltsbereich ul ul li {
+	font-size: 			1em;
+}
+#inhaltsbereich ul.liste_mit_typangaben li {
+	list-style-image: 	url('none');
+	font-size: 			0.75em;
+	line-height: 		150%
+}	
+#inhaltsbereich .liste-ohne-bullets {
+	list-style-image:	url('none'); 
+	list-style-type:	none
+}
+#inhaltsbereich .liste-ohne-bullets li {
+	margin-bottom: 		0.5em;
+}
+/*** Links mit automatischer Symbol-Kennzeichnung in Listen ***/
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.html'], #inhaltsbereich ul.liste_mit_typangaben a[href $='.htm'] { 
+   padding-left: 	1.5em;
+   background: 		url('../images/icons/pfeil-gruen-klein.gif') no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.pdf'] { 
+   padding-left: 	1.5em;
+   background: 		url('../images/icons/pdf.gif') no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.doc'], #inhaltsbereich ul.liste_mit_typangaben a[href $='.docx'] { 
+   padding-left: 	1.5em;
+   background: 		url('../images/icons/doc.gif') no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.xls'], #inhaltsbereich ul.liste_mit_typangaben a[href $='.xlsx'] { 
+   padding-left: 	1.5em;
+   background: 		url('../images/icons/xls.gif') no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.zip'] { 
+   padding-left: 	1.5em;
+   background: 		url('../images/icons/zip.gif') no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href ^="mailto:"] {
+   padding-left: 	1.5em;
+   background: 		url('../images/icons/mailtosw.gif') no-repeat center left;
+}
+/*** Links in Fliesstexten ***/
+a:link, a:visited {
+	text-decoration: 	underline;
+	color: 				#003560;
+}
+#inhaltsbereich a:hover {
+	color: 				#8dae10;
+}
+/*** sonstige Linkauszeichnungen ***/	
+.link-englisch { 
+   	padding-right: 		1.5em;
+   	background: 		url('../images/icons/fl_english.gif') no-repeat center right;
+}
+.link-deutsch { 
+   	padding-right: 		1.5em;
+   	background: 		url('../images/icons/fl_deutsch.gif') no-repeat center right;
+}
+.link-extern-englisch { 
+   	padding-right: 		2.75em;
+   	background: 		url('../images/icons/extern-englisch.gif') no-repeat center right;
+}
+.link-extern-deutsch { 
+   	padding-right: 		2.75em;
+   	background: 		url('../images/icons/extern-deutsch.gif') no-repeat center right;
+}
+.link-extern {
+	padding-right: 		1.5em;
+   	background: 		url('../images/icons/external.gif') no-repeat center right;
+}
+.link-weiterlesen { 
+   	padding-left: 		1.5em;
+   	background: 		url('../images/navigation/pfeil-gruen-weiss.gif') no-repeat center left;
+}
+.link-html-pfeil-blau {
+	padding-left: 		0.6em;
+	background: 		url('../images/navigation/pfeil-link-blau.gif') no-repeat center left;
+}
+/*** Links mit automatischer Symbol-Kennzeichnung im Fließtext ***/
+#inhaltsbereich p a[href $='.pdf'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/pdf.gif') no-repeat center right;
+}
+#inhaltsbereich p a[href $='.doc'], #inhaltsbereich p a[href $='.docx'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/doc.gif') no-repeat center right;
+}
+#inhaltsbereich p a[href $='.xls'], #inhaltsbereich p a[href $='.xlsx'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/xls.gif') no-repeat center right;
+}
+#inhaltsbereich p a[href $='.zip'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/zip.gif') no-repeat center right;
+}
+#inhaltsbereich p a[href ^="mailto:"] {
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/mailtosw.gif') no-repeat center right;
+}
+#inhaltsbereich ul a[href ^="mailto:"] {
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/mailtosw.gif') no-repeat center right;
+}
+/*** Auszeichnungen für Bilder ***/
+.bilder-mit-text-floats {
+	float:				left;
+	width: 				9.5em;
+	padding:			0.4em;
+	height: 			16em;
+}
+.bildzeile {
+	font-size: 		0.8em;
+	font-style:		italic; 
+	line-height:	1.4em; 
+	padding: 		1em;
+}
+/*** Formularemelemente ***/
+form select, form input {
+	border: 			1px solid #ccc; 
+	color:				#003560; 
+	padding:			0.2em;
+	font-size:			0.75em;
+	margin-bottom: 		1em;
+}
+button[type] {
+	line-height:		1em;
+	padding:			0.25em ;
+}
+ button {
+	background:			#003560;
+	border-color:		#fff #666 #666 #fff;
+	border-style:		solid;
+	border-width:		1px;
+	color:				#fff;
+	font-size:			0.75em;
+	line-height:		130%;
+	overflow:			visible;
+	width:				auto;
+	font-weight: 		normal;
+}
+.suchform button[type] {
+	line-height:		17px;
+	padding:			5px 10px 5px 7px;
+}
+.suchform button {
+	background:			#003560;
+	border-color:		#fff #666 #666 #fff;
+	border-style:		solid;
+	border-width:		1px;
+	color:				#fff;
+	cursor:				pointer;
+	font-size:			1em;
+	line-height:		130%;
+	overflow:			visible;
+	width:				auto;
+	font-weight: 		bold;
+}
+.suchform input[type="text"] {
+	background-color:	#f1f1f1;
+	border:				1px solid #003560;
+	font-size:			1em;
+	padding:			0.2em;
+}
+/*** Formularbeispiel ***/
+.formular form {
+	margin:				0;
+	padding:			0;
+}
+.formular fieldset {
+	margin:				1em 0;
+	border:				none;
+	border:				1px solid #ccc;
+	margin-bottom:		0.5em;
+	padding:			0;
+	display:			block;
+}
+.formular legend {
+	padding:			0.5em;
+	color:				#003560;
+	background:			transparent;
+	font-size:			0.9em;
+	font-weight:		bold;
+}
+.formular label {
+	float:				left;
+	width:				10em;
+	padding:			0 1em;
+	text-align:			right;
+}
+.formular fieldset input, .formular fieldset textarea {
+	width:				10em;
+	border-top:			1px solid #ccc;
+	border-left:		1px solid #ccc;
+	border-bottom:		1px solid #003560;
+	border-right:		1px solid #003560;
+	padding:			0.2em;
+	color:				#333;
+}
+.formular fieldset select {
+	padding:			0.1em;
+	border: 			1px solid #003560;
+}
+.formular div.auswahlfeld {
+	padding:			0.5em;
+}
+div.auswahlfeld input {
+	width:				1em;
+}
+.formular div.auswahlfeld label {
+	display:			block;
+	width:				10em;
+	padding-left:		5em;
+	text-align:			left;
+}
+.formular #abschicken {
+	clear:				both;
+	padding-top:		1em;
+	text-align:			center;
+}
+.formular #abschicken input {
+	border:				1px solid #333;
+	padding:			2px 1em;
+	background:			#003560;
+	color:				#fff;
+	font-size:			100%;
+}
+.formular input:focus, .formular  textarea:focus {
+	background:			#efefef;
+	color:				#000;
+}
+/*** Tabellen ***/
+table {
+	font-size: 			0.75em;
+	color:				#003560;
+	border-collapse:	collapse;
+	background-color: 	#fff;
+	margin-bottom: 		1.5em;
+}
+table caption {
+	text-align: 		left; 
+	font-size: 			1.25em; 
+	font-weight:		bold;
+	padding-bottom: 	0.5em;
+}
+table th, table td {
+	padding: 			0.25em;
+	border: 			1px solid #ccc;
+}
+table th[scope=col] {
+	border-bottom: 		2px solid #ccc; 
+	background-color:	#e8efcf;
+}
+table th[scope=row] {
+	border-right: 		2px solid #ccc;
+}
+/*** Links mit automatischer Symbol-Kennzeichnung in Tabellen ***/
+#inhaltsbereich td a[href $='.pdf'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/pdf.gif') no-repeat center right;
+}
+#inhaltsbereich td a[href $='.doc'], #inhaltsbereich td a[href $='.docx'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/doc.gif') no-repeat center right;
+}
+#inhaltsbereich td a[href $='.xls'], #inhaltsbereich td a[href $='.xlsx'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/xls.gif') no-repeat center right;
+}
+#inhaltsbereich td a[href $='.zip'] { 
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/zip.gif') no-repeat center right;
+}
+#inhaltsbereich td a[href ^="mailto:"] {
+   padding-right: 	1.5em;
+   background: 		url('../images/icons/mailtosw.gif') no-repeat center right;
+}
+/*** Bei dreispaltigem Layout, t1: zwei Spalten im Inhaltsbereich ***/
+#dreispalter-inhalt-zweispalten {
+	padding: 			0; 
+	margin:				0;
+}
+#inhalt-linkespalte {
+	width: 				13.25em;
+	float:				left;
+}
+#inhalt-rechtespalte {
+	width: 				13.25em;
+	float:				right;
+}
+#inhaltsbereich img.bildlinks {
+	float:				left;
+	padding: 			5px 10px 10px 0;
+}
+#inhaltsbereich img.bildrechts {
+	float:				right;
+	padding: 			5px 0 10px 10px
+}
+.inhalt-halbe-spalte { 
+	border:				0px none;
+}
+/*** Floatende Marginalbox im Zweispalter t2 ***/
+.marginalbox-im-inhaltsbereich {
+	float: 		right;
+	width: 		240px;
+	background: #fff;
+	padding: 	0;
+	margin: 	0;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich {
+	padding: 	0 1em;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich h3 {
+	color:				#8dae10;
+	border-top: 		2px solid #8dae10;
+	text-transform:		uppercase;
+	font-size:			0.875em;
+	font-weight: 		bold;
+	letter-spacing: 	1px;
+	padding-top: 		5px;
+	padding-right: 		0;
+	padding-bottom: 	5px;
+	padding-left: 		0;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich h4 {
+	color:				#8dae10;
+	border-top: 		2px solid #8dae10;
+	text-transform:		uppercase;
+	font-size:			0.85em;
+	font-weight: 		bold;
+	padding: 			5px 0;
+	letter-spacing: 	1px;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich p {
+	font-size: 			0.75em;
+	color: 				#003560;
+	line-height: 		normal; 
+	clear: 				both;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich ul {
+	margin-left: 		2px;
+	padding-left: 		0px;
+	list-style-type: 	none;
+	list-style-image:	url('none');
+	margin-bottom: 		0.5em
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich li {
+   	list-style-image:		url('none');
+	line-height: 			1.5em;
+	font-size:				0.75em;
+	background-image: 		url('../images/navigation/liste-gruen-klein.gif');
+	background-repeat: 		no-repeat;
+	background-position: 	 left top;
+	padding-left: 			0.75em;
+	padding-top: 			0.2em
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich a:link, #inhaltsbereich .marginalbox-im-inhaltsbereich a:visited {
+	text-decoration:	underline;
+	color:				#003560;
+	font-size:			1em;
+}		
+#inhaltsbereich .marginalbox-im-inhaltsbereich a:hover {
+	text-decoration:	none;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich img {
+	padding: 	0;
+	margin:		0;
+}
+/*** Bei einspaltigem Layout mit Marginalspalte, t3: zwei Spalten im Inhaltsbereich ***/
+#extra-einspaltig-mit-marginal-inhalt-zweispalten {
+	width:				44em;
+	clear: 				left;
+}
+#extra-einspaltig-mit-marginal-inhalt-zweispalten-links {
+	float:				left;
+	width:				22em;
+	padding:			0em 1em 1em 0;
+}
+#extra-einspaltig-mit-marginal-inhalt-zweispalten-rechts {
+	padding:			0em 0.5em 1em 1em;
+	overflow:			hidden;
+}
+/*** Bei einspaltigem Layout ohne Marginalspalte, t4: zwei Spalten im Inhaltsbereich ***/
+#extra-einspaltig-ohne-marginal-inhalt-zweispalten {
+	width:				58.75em;
+	clear: 				left;
+}
+#extra-einspaltig-ohne-marginal-inhalt-zweispalten-links {
+	float:				left;
+	width:				28em;
+	padding:			0em 1em 1em 0;
+}
+#extra-einspaltig-ohne-marginal-inhalt-zweispalten-rechts {
+	padding:			0em 0 1em 1em;
+	overflow:			hidden;
+	width: 				28em;
+	float: 				right;
+}
+/*** Marginalspalte ***/
+#marginalspalte {
+	padding:            0 0.625em 0 0.625em;
+}
+#marginalspalte h3 {
+	color:				#666666;
+	border-top: 		2px solid #666666;
+	text-transform:		uppercase;
+	font-size:			0.875em;
+	font-weight: 		bold;
+	letter-spacing: 	1px;
+	clear: 				both;
+	padding-top: 		5px;
+	padding-right: 		0;
+	padding-bottom: 	5px;
+	padding-left: 		0;
+}
+#marginalspalte h4 {
+	color:				#666666;
+	border-top: 		2px solid #666666;
+	text-transform:		uppercase;
+	font-size:			0.85em;
+	font-weight: 		bold;
+	padding: 			5px 0;
+	letter-spacing: 	1px;
+}
+#marginalspalte p {
+	font-size: 			0.75em;
+	color: 				#003560;
+	line-height: 		1.5em;
+	margin-bottom: 		1em;
+	clear: 				both;
+}
+#marginalspalte ul {
+	margin-left: 		2px;
+	padding-left: 		0px;
+	list-style-type: 	none;
+	margin-bottom: 		0.5em;
+}
+#marginalspalte li {
+	line-height: 		1.5em;
+	font-size:			0.75em;
+	background-image: 	url('../images/navigation/liste-gruen-klein.gif');
+	background-repeat: 	no-repeat;
+	background-position: left top;
+	padding-left: 		0.75em;
+	padding-top: 		0.2em
+}
+#marginalspalte li li {
+	font-size: 			1em;
+}
+#marginalspalte a:link, #marginalspalte a:visited {
+	text-decoration:	underline;
+	color:				#003560;
+	font-size:			1em;
+	border:				0px none;
+}	
+#marginalspalte a:hover {
+	text-decoration:	none;
+}
+#marginalspalte img.bildlinks {
+	float:				left;
+	padding-top: 		0;
+	padding-right: 		0.5em;
+	padding-bottom: 	1em;
+	padding-left: 		0;
+	clear: 				both;
+}
+#marginalspalte img.bildrechts {
+	float:				right;
+	padding: 			0 0 10px 10px 
+}
+.marginalmargintop20 {
+	margin-top:			20px;
+}
+.marginalspalte_link {
+	padding-left: 		1.2em;
+	background: 		url('../images/navigation/pfeil-gruen-weiss.gif') no-repeat center left;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund {
+	color:				#003560;
+	padding: 			0em;
+	background-color: 	#f9fbee;
+	margin-bottom: 		1em;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund h3 {
+	color:				#8dae10;
+	text-transform:		uppercase;
+	font-weight: 		bold;
+	letter-spacing: 	1px;
+	background-color: 	#e8efcf;
+	padding-top: 		5px;
+	padding-right: 		0;
+	padding-bottom: 	5px;
+	font-size: 			0.875em;
+	padding-left: 		0.5em;
+	border-top-width: 	2px;
+	border-top-style: 	solid;
+	border-top-color: 	#8dae10;
+	clear: 				both;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund ul {
+	background-image: 	url('none');
+	list-style-position:outside;
+	list-style-image: 	url('none.html');
+}
+#marginalspalte .marginalspalte_gruenerhintergrund li {
+	border-bottom:1px solid #8dae10; background-image: 	url('../images/navigation/pfeil-marginal-blau-klein.gif');
+	margin: 			0px;
+	padding-top: 		0.2em;
+	padding-bottom: 	0.2em;
+	padding-left: 		1.5em;
+	background-repeat: 	no-repeat;
+	background-position: left top;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund img {
+	padding-top: 		0.5em;
+	padding-bottom: 	1em;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund p {
+	padding-left: 		0.5em;
+	margin: 			0px;
+}
+#marginalspalte img.marginal-klein-links { 
+	padding:			0.2em;
+}
+/*** Layoutumschaltung in der Fusszeile ***/
+#umschalt {
+	display:			none;
+}

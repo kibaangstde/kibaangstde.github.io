@@ -1,0 +1,38 @@
+/*** Linke Spalte ***/
+#leftcolumn {
+	color: 		#666;
+	width: 		15em;
+	float: 		left;
+}
+/*** Inhaltsbereich ***/
+#content {
+	float: 		left;
+	color: 		#666;
+	width: 		30em;
+	display: 	inline;
+}
+/*** Rechte Spalte ***/
+#rightcolumn {
+	color: 		#666;
+	width: 		15em;
+	float: 		left;
+}
+/*** Fußzeile ***/
+#footer {
+	width: 			58.75em;
+	clear: 			both;
+	color: 			#666;
+	padding: 		0.625em;
+	border-top: 	#a2c614 solid 1px;
+	border-bottom: 	2px solid #ddd;
+}
+/*** Inhalt Fußzeile ***/
+#footer a:link,#footer a:visited {
+	text-decoration:none;
+	color:	#003560;
+	font-size: 1em;
+	}
+#footer a:hover {
+	text-decoration:underline;
+	}
+#fusszeilentext {font-size: 0.689em;}

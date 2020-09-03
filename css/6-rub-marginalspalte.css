@@ -1,0 +1,130 @@
+@charset "iso-8859-2";
+/*** Kennzeichnungen fuer die Marginalspalte ***/
+#marginalspalte {
+	padding:            0 0.625em 0 0.625em;
+}
+#marginalspalte h3 {
+	color:				#8dae10;
+	border-top: 		2px solid #8dae10;
+	text-transform:		uppercase;
+	font-size:			0.875em;
+	font-weight: 		bold;
+	letter-spacing: 	1px;
+	clear: 				both;
+	padding-top: 		5px;
+	padding-right: 		0;
+	padding-bottom: 	5px;
+	padding-left: 		0;
+}
+#marginalspalte h4 {
+	color:				#8dae10;
+	border-top: 		2px solid #8dae10;
+	text-transform:		uppercase;
+	font-size:			0.85em;
+	font-weight: 		bold;
+	padding: 			5px 0;
+	letter-spacing: 	1px;
+}
+#marginalspalte p {
+	font-size: 			0.75em;
+	color: 				#003560;
+	line-height: 		1.5em;
+	margin-bottom: 		1em;
+	clear: 				both;
+}
+#marginalspalte ul {
+	margin-left: 		2px;
+	padding-left: 		0px;
+	list-style-type: 	none;
+	margin-bottom: 		0.5em;
+}
+#marginalspalte li {
+	line-height: 			1.5em;
+	font-size:				0.75em;
+	background-image: 		url(../images/navigation/liste-gruen-klein.gif);
+	background-repeat: 		no-repeat;
+	background-position: 	left top;
+	padding-left: 			0.75em;
+	padding-top: 			0.2em;
+}
+#marginalspalte li li {
+	font-size: 			1em;
+}
+#marginalspalte a:link, #marginalspalte a:visited {
+	text-decoration:	underline;
+	color:				#003560;
+	font-size:			1em;
+	border:				0;
+}	
+#marginalspalte a:hover {
+	text-decoration:	none;
+}
+#marginalspalte img.bildlinks {
+	float:				left;
+	padding-top: 		0;
+	padding-right: 		0.5em;
+	padding-bottom: 	1em;
+	padding-left: 		0;
+	clear: 				both;
+}
+#marginalspalte img.bildrechts {
+	float:				right;
+	padding: 			0 0 10px 10px 
+}
+.marginalmargintop20 {
+	margin-top:			20px;
+}
+.marginalspalte_link {
+	padding-left: 		1.2em;
+	background: 		transparent url(../images/navigation/pfeil-gruen-weiss.gif) no-repeat center left;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund {
+	color:				#003560;
+	padding: 			0em;
+	background-color: 	#f9fbee;
+	margin-bottom: 		1em;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund h3 {
+	color:				#8dae10;
+	text-transform:		uppercase;
+	font-weight: 		bold;
+	letter-spacing: 	1px;
+	background-color: 	#e8efcf;
+	padding-top: 		5px;
+	padding-right: 		0;
+	padding-bottom: 	5px;
+	font-size: 			0.875em;
+	padding-left: 		0.5em;
+	border-top-width: 	2px;
+	border-top-style: 	solid;
+	border-top-color: 	#8dae10;
+	clear: 				both;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund ul {
+	background-image: 		none;
+	list-style-position: 	outside;
+	list-style-image: 		url(none.html);
+}
+#marginalspalte .marginalspalte_gruenerhintergrund li {
+	background-image: 		url(../images/navigation/pfeil-marginal-blau-klein.gif);
+	border-bottom-width: 	1px;
+	border-bottom-style: 	solid;
+	border-bottom-color: 	#8dae10;
+	margin: 				0px;
+	padding-top: 			0.2em;
+	padding-bottom: 		0.2em;
+	padding-left: 			1.5em;
+	background-repeat: 		no-repeat;
+	background-position: 	left top;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund img {
+	padding-top: 		0.5em;
+	padding-bottom: 	1em;
+}
+#marginalspalte .marginalspalte_gruenerhintergrund p {
+	padding-left: 		0.5em;
+	margin: 			0px;
+}
+#marginalspalte img.marginal-klein-links { 
+	padding:			0.2em;
+}

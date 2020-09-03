@@ -1,0 +1,635 @@
+@charset "iso-8859-2";
+/***	Hauptueberschrift Seite unter Ruhr-Universitaet Bochum ***/	
+#header h1 {
+	margin:				0;
+	color: 				#FFFFFF;
+	font-size: 			1.5em;
+	text-transform: 	uppercase;
+	padding-top: 10em;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0.375em;
+}
+/*** Zweite Ueberschrift im Kopfbereich ***/
+#header h2 {
+	margin:				0;
+	padding: 			0.625em 0 0 0.625em;
+	color: 				#003560;
+	font-size: 			1em;
+	text-transform: 	uppercase;
+}
+/*** Optional Dritte Ueberschrift im Kopfbereich ***/
+#header h3 {
+	margin:				0;
+	padding: 			0.625em 0 0 1em;
+	color: 				#003560;
+	font-size: 			0.875em;
+	text-transform: 	uppercase;
+}
+/*** Wo bin ich ***/
+#history {
+	width: 				58.75em;
+	padding: 			0.625em 0.625em 0.625em 0.625em;
+	color:				#626262;
+	float: 				left;
+}
+#history a {
+	text-decoration:	none;
+	color:				#5c5c5c;
+}
+#history a:hover {
+	text-decoration:	underline;
+}
+#wo_bin_ich {
+	font-size: 			0.689em;
+}
+#sprache {
+	width: 				10em;
+	float:				right;
+	text-align:			right;
+}
+#sprache a {
+	font-size: 			0.689em;
+}
+.flagge-englisch-vor {
+	background-image:		url(../images/icons/fl_english.gif);
+	background-position: 	left;
+	background-repeat:		no-repeat;
+	padding-left: 			1.5em;
+}
+.flagge-deutsch-vor {
+	background-image:		url(../images/icons/fl_deutsch.gif);
+	background-position: 	left;
+	background-repeat:		no-repeat;
+	padding-left: 			1.5em;
+}
+/*** Inhaltsbereich Basisdefinitionen ***/
+#inhaltsbereich img {
+	padding: 		0 0 0.5em 0;
+}
+#inhaltsbereich  p {
+	padding:  		0 0 0.625em 0;
+	font-size: 		0.75em;
+	color: 			#003560;
+	line-height: 	150%;
+}
+#inhaltsbereich ul {
+	list-style-type: none;
+	padding: 		0 0 1em 1em;
+	color: 			#003560;
+}	
+#inhaltsbereich ol, #inhaltsbereich dl {
+	padding: 		0 0 1em 1.25em;
+	font-size: 		0.75em;
+	line-height: 	125%;
+	color: 			#003560;
+}
+#inhaltsbereich dt {
+	font-weight:	bold;
+}
+#inhaltsbereich dd {
+	padding-left: 	2em;
+}
+/*** Ueberschriften im Inhaltsbereich ***/
+#inhaltsbereich h2 {
+	font-size: 		1em;
+	border-top: 	2px solid #003560;
+	padding: 		0.3125em 0 0.625em 0;
+	color:			#003560;
+	text-transform: uppercase;
+}
+#inhaltsbereich h3 {
+	font-size: 		0.875em;
+	padding: 		0.3125em 0 0.625em 0;
+	color:			#003560;
+	text-transform: none;
+}
+#inhaltsbereich h4 {
+	font-size: 		0.75em;
+	padding: 		0.3125em 0 0.625em 0;
+	color:			#003560;
+	text-transform: none;
+}
+#inhaltsbereich h5 {
+	font-size: 		0.75em;
+	padding: 		0.3125em 0 0.625em 0;
+	color:			#003560;
+}
+#inhaltsbereich h6 {
+	font-size: 		0.75em;
+	padding: 		0.3125em 0 0.625em 0;
+	color:			#003560;
+	font-weight:	normal;
+}
+/*** Listen im Inhaltsbereich ***/
+#inhaltsbereich ul li {
+	font-size: 			0.75em;
+	line-height: 		150%;
+	list-style-image: 	url(../images/navigation/pfeil-link-blau-listeinhalt.gif);
+}
+#inhaltsbereich ul ul li {
+	font-size: 		1em;
+}
+#inhaltsbereich ul.liste_mit_typangaben li {
+	list-style-image:	none;
+	font-size: 			0.75em;
+	line-height: 		150%;
+}	
+#inhaltsbereich .liste-ohne-bullets {
+	list-style-image:	none; 
+	list-style-type:	none;
+}
+#inhaltsbereich .liste-ohne-bullets li {
+	margin-bottom: 		0.5em;
+}
+/*** Links mit automatischer Symbol-Kennzeichnung in Listen ***/
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.html'],#inhaltsbereich ul.liste_mit_typangaben a[href $='.htm'] { 
+   padding-left: 	1.5em;
+   background: 		transparent url(../images/icons/pfeil-gruen-klein.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.pdf'] { 
+   padding-left: 	1.5em;
+   background: 		transparent url(../images/icons/pdf.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.doc'],#inhaltsbereich ul.liste_mit_typangaben a[href $='.docx'] { 
+   padding-left: 	1.5em;
+   background: 		transparent url(../images/icons/doc.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.xls'],#inhaltsbereich ul.liste_mit_typangaben a[href $='.xlsx'] { 
+   padding-left: 	1.5em;
+   background: 		transparent url(../images/icons/xls.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.zip'] { 
+   padding-left: 	1.5em;
+   background: 		transparent url(../images/icons/zip.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href ^="mailto:"] {
+   padding-left: 	1.5em;
+   background: 		transparent url(../images/icons/mailtosw.gif) no-repeat center left;
+}
+/*** Links in Fliesstexten ***/
+a:link {
+	text-decoration: 	underline;
+	color: 				#003560;
+}
+a:visited {
+	text-decoration:	underline;
+	color: 				#666;
+}
+#inhaltsbereich a:hover {
+	color: 				#8dae10;
+}
+/*** sonstige Linkauszeichnungen ***/	
+.link-englisch { 
+   	padding-right: 		1.5em;
+   	background: 		transparent url(../images/icons/fl_english.gif) no-repeat center right;
+}
+.link-deutsch { 
+   	padding-right: 		1.5em;
+   	background: 		transparent url(../images/icons/fl_deutsch.gif) no-repeat center right;
+}
+.link-extern-englisch { 
+   	padding-right: 		2.75em;
+   	background: 		transparent url(../images/icons/extern-englisch.gif) no-repeat center right;
+}
+.link-extern-deutsch { 
+   	padding-right: 		2.75em;
+   	background: 		transparent url(../images/icons/extern-deutsch.gif) no-repeat center right;
+}
+.link-extern {
+	padding-right: 		1.5em;
+   	background: 		transparent url(../images/icons/external.gif) no-repeat center right;
+}
+.link-weiterlesen { 
+   	padding-left: 		1.5em;
+   	background: 		transparent url(../images/navigation/pfeil-gruen-weiss.gif) no-repeat center left;
+}
+.link-html-pfeil-blau {
+	padding-left: 		0.6em;
+	background: 		transparent url(../images/navigation/pfeil-link-blau.gif) no-repeat center left;
+}
+/*** Links mit automatischer Symbol-Kennzeichnung im Fließtext ***/
+#inhaltsbereich p a[href $='.pdf'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/pdf.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href $='.doc'],#inhaltsbereich p a[href $='.docx'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/doc.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href $='.xls'],#inhaltsbereich p a[href $='.xlsx'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/xls.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href $='.zip'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/zip.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href ^="mailto:"] {
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/mailtosw.gif) no-repeat center right;
+}
+#inhaltsbereich ul a[href ^="mailto:"] {
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/mailtosw.gif) no-repeat center right;
+}
+/*** Auszeichnungen für Bilder ***/
+.bilder-mit-text-floats {
+	float:			left;
+	width: 			7em;
+	padding:		0.5em;
+}
+.bildzeile {
+	font-size: 		0.8em;
+	font-style:		italic; 
+	line-height:	1.4em; 
+	padding: 		1em;
+}
+/*** Formularelemente ***/
+form select, form input, form textarea {
+	border: 		1px solid #ccc; 
+	color:			#003560; 
+	padding:		0.2em;
+	font-size:		0.75em;
+	margin-bottom: 	1em;
+}
+button[type] {
+	line-height:	1em;
+	padding:		0.25em ;
+}
+ button {
+	background:		#003560;
+	border-color:	#fff #666 #666 #fff;
+	border-style:	solid;
+	border-width:	1px;
+	color:			#fff;
+	font-size:		0.75em;
+	line-height:	130%;
+	overflow:		visible;
+	width:			auto;
+	font-weight: 	normal;
+}
+.suchform button[type] {
+	line-height:	17px;
+	padding:		5px 10px 5px 7px;
+}
+.suchform button {
+	background:		#003560;
+	border-color:	#fff #666 #666 #fff;
+	border-style:	solid;
+	border-width:	1px;
+	color:			#fff;
+	cursor:			pointer;
+	font-size:		1em;
+	line-height:	130%;
+	overflow:		visible;
+	width:			auto;
+	font-weight: 	bold;
+}
+.suchform input[type="text"] {
+	background-color:	#f1f1f1;
+	border:				1px solid #003560;
+	font-size:			1em;
+	padding:			0.2em;
+}
+/*** Formularbeispiel ***/
+.formular form {
+	margin:			0;
+	padding:		0;
+}
+.formular fieldset {
+	margin:			1em 0;
+	border:			none;
+	border:			1px solid #ccc;
+	margin-bottom:	0.5em;
+	padding:		0;
+	display:		block;
+}
+.formular legend {
+	padding:		0.5em;
+	color:			#003560;
+	background:		transparent;
+	font-size:		0.9em;
+	font-weight:	bold;
+}
+.formular label {
+	float:			left;
+	width:			10em;
+	padding:		0 1em;
+	text-align:		right;
+}
+.formular fieldset input, .formular fieldset textarea {
+	width:			10em;
+	border-top:		1px solid #ccc;
+	border-left:	1px solid #ccc;
+	border-bottom:	1px solid #003560;
+	border-right:	1px solid #003560;
+	padding:		0.2em;
+	color:			#333;
+}
+.formular fieldset select {
+	padding:		0.1em;
+	border: 		1px solid #003560;
+}
+.formular div.auswahlfeld {
+	padding:		0.5em;
+}
+div.auswahlfeld input {
+	width:			1em;
+}
+.formular div.auswahlfeld label {
+	display:		block;
+	width:			10em;
+	padding-left:	5em;
+	text-align:		left;
+}
+.formular #abschicken {
+	clear:			both;
+	padding-top:	1em;
+	text-align:		center;
+}
+.formular #abschicken input {
+	border:			1px solid #333;
+	padding:		2px 1em;
+	background:		#003560;
+	color:			#fff;
+	font-size:		100%;
+}
+.formular input:focus, .formular  textarea:focus {
+	background:		#efefef;
+	color:			#000;
+}
+/*** Tabellen ***/
+table {
+	font-size: 			0.75em;
+	color:				#003560;
+	border-collapse:	collapse;
+	background-color: 	#fff;
+	margin-bottom: 		1.5em;
+}
+table caption {
+	text-align: 	left; 
+	font-size: 		1.25em; 
+	font-weight:	bold;
+	padding-bottom: 0.5em;
+}
+table th, table td {
+	padding: 		0.25em;
+	border: 		1px solid #ccc;
+}
+table th[scope=col] {
+	border-bottom: 		2px solid #ccc; 
+	background-color:	#e8efcf;
+}
+table th[scope=row] {
+	border-right: 		2px solid #ccc;
+}
+/*** z. T. unsichtbare Tabellen ***/
+table.tabellelight {
+	font-size: 			0.75em;
+	color:				#003560;
+	border-collapse:	collapse;
+	background-color: 	#fff;
+	margin-bottom: 		1.5em;
+}
+table.tabellelight  caption {
+	text-align: 		left; 
+	font-size: 			1.25em; 
+	font-weight:		bold;
+	padding-bottom: 	0.5em;
+}
+table.tabellelight th, table.tabellelight td {
+	padding: 			1em; 
+	border: 			none;
+}
+table.tabellelight  th[scope=col] {
+	background-color:	#f4f4f4;
+}
+table.tabellelight  th[scope=row] {
+	border-right: 		2px solid #ccc;
+}
+/*** Tabellen fuer laengere Auflistungen ***/
+table.tabelledezent {
+	font-size: 			0.75em;
+	color:				#003560;
+	background-color: 	#fff;
+	margin-bottom: 		1.5em;
+}
+table.tabelledezent  caption {
+	text-align: 		left; 
+	font-size: 			1.25em; 
+	font-weight:		bold;
+	padding-bottom: 	0.5em;
+}
+table.tabelledezent th, table.tabelledezent td {
+	border-top-style: 		none;
+	border-right-style: 	none;
+	border-bottom-style: 	solid;
+	border-left-style: 		none;
+	padding: 				0.25em;
+	border-bottom-width: 	1px;
+	border-bottom-color: 	#e7e7e7;
+}
+table.tabelledezent  th[scope=col] {
+	background-color:	#e7e7e7;
+	text-align: 		left;
+}
+table.tabelledezent  th[scope=row] {
+	border-right: 		2px solid #ccc;
+}
+table.tabelleohnerahmen  caption {
+	text-align: 		left; 
+	font-size: 			1.25em; 
+	font-weight:		bold;
+	padding-bottom: 	0.5em;
+}
+table.tabelleohnerahmen th, table.tabelleohnerahmen td {
+	border: 			none;
+	padding: 			0.5em;
+}
+table.tabelleohnerahmen  th[scope=col] {
+	background-color:	#e7e7e7;
+	text-align: 		left;
+}
+table.tabelleohnerahmen  th[scope=row] {
+	border-right: 		2px solid #ccc;
+}
+/*** Links mit automatischer Symbol-Kennzeichnung in Tabellen ***/
+#inhaltsbereich td a[href $='.pdf'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/pdf.gif) no-repeat center right;
+}
+#inhaltsbereich td a[href $='.doc'],#inhaltsbereich td a[href $='.docx'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/doc.gif) no-repeat center right;
+}
+#inhaltsbereich td a[href $='.xls'],#inhaltsbereich td a[href $='.xlsx'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/xls.gif) no-repeat center right;
+}
+#inhaltsbereich td a[href $='.zip'] { 
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/zip.gif) no-repeat center right;
+}
+#inhaltsbereich td a[href ^="mailto:"] {
+   padding-right: 	1.5em;
+   background: 		transparent url(../images/icons/mailtosw.gif) no-repeat center right;
+}
+/*** Bei dreispaltigem Layout, t1: zwei Spalten im Inhaltsbereich ***/
+#dreispalter-inhalt-2spalten {
+	padding: 	0; 
+	margin:		0;
+}
+#inhalt-linkespalte {
+	width: 		13.25em;
+	float:		left;
+}
+#inhalt-rechtespalte {
+	width: 		13.25em;
+	float:		right;
+}
+#inhaltsbereich img.bildlinks {
+	float:		left;
+	padding: 	5px 10px 10px 0;
+}
+#inhaltsbereich img.bildrechts {
+	float:		right;
+	padding: 	5px 0 10px 10px
+}
+.inhalt-halbe-spalte { 
+	border:		0;
+}
+/*** Floatende Marginalbox im Zweispalter t2 ***/
+.marginalbox-im-inhaltsbereich {
+	float: 		right;
+	width: 		240px;
+	background: #fff;
+	padding: 	0;
+	margin: 	0;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich {
+	padding: 	0 1em;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich h3 {
+	color:				#8dae10;
+	border-top: 		2px solid #8dae10;
+	text-transform:		uppercase;
+	font-size:			0.875em;
+	font-weight: 		bold;
+	letter-spacing: 	1px;
+	padding-top: 		5px;
+	padding-right: 		0;
+	padding-bottom: 	5px;
+	padding-left: 		0;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich h4 {
+	color:				#8dae10;
+	border-top: 		2px solid #8dae10;
+	text-transform:		uppercase;
+	font-size:			0.85em;
+	font-weight: 		bold;
+	padding: 			5px 0;
+	letter-spacing: 	1px;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich p {
+	font-size: 			0.75em;
+	color: 				#003560;
+	line-height: 		normal; 
+	clear: 				both;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich ul {
+	margin-left: 		2px;
+	padding-left: 		0px;
+	list-style-type: 	none;
+	list-style-image:	none;
+	margin-bottom: 		0.5em;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich li {
+   	list-style-image:		none;
+	line-height: 			1.5em;
+	font-size:				0.75em;
+	background-image: 		url(../images/navigation/liste-gruen-klein.gif);
+	background-repeat: 		no-repeat;
+	background-position: 	left top;
+	padding-left: 			0.75em;
+	padding-top: 			0.2em;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich a:link {
+	text-decoration:	underline;
+	color:				#003560;
+	font-size:			1em;
+}	
+#inhaltsbereich .marginalbox-im-inhaltsbereich a:visited {
+	text-decoration:	underline;
+	color:				#666;
+	font-size:			1em;
+}	
+#inhaltsbereich .marginalbox-im-inhaltsbereich a:hover {
+	text-decoration:	none;
+}
+#inhaltsbereich .marginalbox-im-inhaltsbereich img {
+	padding: 	0;
+	margin:		0;
+}
+/*** Bei einspaltigem Layout mit Marginalspalte, t3: zwei Spalten im Inhaltsbereich ***/
+#extra-einspaltig-mit-marginal-inhalt-zweispalten {
+	width:		44em;
+	clear: 		left;
+}
+#extra-einspaltig-mit-marginal-inhalt-zweispalten-links {
+	float:		left;
+	width:		22em;
+	padding:	0em 1em 1em 0;
+}
+#extra-einspaltig-mit-marginal-inhalt-zweispalten-rechts {
+	padding:	0em 0.5em 1em 1em;
+	overflow:	hidden;
+}
+/*** Bei einspaltigem Layout ohne Marginalspalte, t4: zwei Spalten im Inhaltsbereich ***/
+#extra-einspaltig-ohne-marginal-inhalt-zweispalten {
+	width:		58.75em;
+	clear: 		left;
+}
+#extra-einspaltig-ohne-marginal-inhalt-zweispalten-links {
+	float:		left;
+	width:		28em;
+	padding:	0em 1em 1em 0;
+}
+#extra-einspaltig-ohne-marginal-inhalt-zweispalten-rechts {
+	padding:	0em 0 1em 1em;
+	overflow:	hidden;
+	width: 		28em;
+	float: 		right;
+}
+/*** Layoutumschaltung in der Fusszeile ***/
+#umschalt {
+	float: 			right;
+}	
+#umschalt ul {
+  	display: 		inline;
+}
+#umschalt ul li {
+	list-style: 	none;
+	display: 		inline;
+	padding: 		0 0 0 18px;
+	margin: 		0 0 0 0;
+}
+#umschalt ul a {
+  	text-decoration: 		none;
+}
+#umschalt ul li#druckversion {
+  	background-image:		url(../images/icons/drucken.gif);
+  	background-position:	left;
+  	background-repeat:		no-repeat;
+}
+#umschalt ul li#normalversion {
+	display: 				none;
+  	background-image:		url(../images/icons/kontrast.gif);
+  	background-position:	left;
+  	background-repeat:		no-repeat;
+}
+#umschalt ul li#kontrastversion {
+  	background-image:		url(../images/icons/kontrast.gif);
+  	background-position:	left;
+  	background-repeat:		no-repeat;
+}

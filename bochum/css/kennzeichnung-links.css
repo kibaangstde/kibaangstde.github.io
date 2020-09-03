@@ -1,0 +1,68 @@
+@charset "iso-8859-2";
+/* Normale Links im Fließtext */
+
+#inhaltsbereich p a[href $='.pdf'] { 
+   padding-right: 1.5em;
+   background: transparent url(../images/icons/pdf.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href $='.doc'] { 
+   padding-right: 1.5em;
+   background: transparent url(../images/icons/doc.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href $='.xls'] { 
+   padding-right: 1.5em;
+   background: transparent url(../images/icons/xls.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href $='.zip'] { 
+   padding-right: 1.5em;
+   background: transparent url(../images/icons/zip.gif) no-repeat center right;
+}
+#inhaltsbereich p a[class ="popup"] {
+   padding-right: 1.5em;
+   background: transparent url(../images/icons/popup.gif) no-repeat center right;
+}
+#inhaltsbereich p a[class ="print"] {
+   padding-right: 1.5em;
+   background: transparent url(../images/icons/print.gif) no-repeat center right;
+}
+#inhaltsbereich p a[href ^="mailto:"] {
+   padding-right: 1.5em;
+   background: transparent url(../images/icons/mailtosw.gif) no-repeat center right;
+}
+
+
+/* Listen */
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.html'] { 
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/pfeil-gruen-klein.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.pdf'] { 
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/pdf.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.doc'] { 
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/doc.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.xls'] { 
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/xls.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href $='.zip'] { 
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/zip.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[class ="popup"] {
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/popup.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[class ="print"] {
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/print.gif) no-repeat center left;
+}
+#inhaltsbereich ul.liste_mit_typangaben a[href ^="mailto:"] {
+   padding-left: 1.5em;
+   background: transparent url(../images/icons/mailtosw.gif) no-repeat center left;
+}
+
+

@@ -1,0 +1,54 @@
+@charset "iso-8859-2";
+/*** Linke Spalte ***/
+#leftcolumn {
+	color: 		#5c5c5c;
+	width: 		15em;
+	float: 		left;
+}
+/*** Inhaltsbereich ***/
+#content {
+	color: 		#5c5c5c;
+	width: 		45em;
+	float: 		left;
+	display: 	inline;
+}
+#inhaltsbereich  {
+	padding: 	0 0.625em 0 1.25em;
+	overflow: 	auto;
+}
+/*** Rechte Spalte ***/
+
+/*** Fusszeile ***/
+#footer {
+	width: 			58.75em;
+	clear: 			both;
+	color: 			#5c5c5c;
+	padding: 		0.625em;
+	border-top: 	#8dae10 solid 1px;
+	border-bottom: 	2px solid #ccc;
+}
+/*** Inhalt Fusszeile ***/
+#footer a:link,#footer a:visited {
+	text-decoration:none;
+	color:			#5c5c5c;
+	font-size: 		1em;
+}
+#footer a:hover {
+	text-decoration:underline;
+}
+#fusszeilentext {
+	font-size: 	0.689em;
+}
+/*** Inhalt bei zwei Spalten ***/
+#inhalt-zweispalten {
+	width:		43em;
+}
+#inhalt-zweispaltenlinks {
+	float:		left;
+	width:		20em;
+	padding:	0em 1em 1em 0;
+}
+#inhalt-zweispaltenrechts {
+	padding:	0em 0.5em 1em 1em;
+	overflow:	hidden;
+}
